@@ -1,0 +1,47 @@
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding: 100px 100px;
+    padding-left: 600px;
+    padding-right: 500px;
+   border-radius: 5px;
+  
+    
+
+
+}
+header{
+     text-align: center;
+     text-decoration-color: azure;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-column-gap:10px;
+}
+.wrapper {
+    text-align: center;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(2fr 2fr) ;
+    row-gap: 1em;
+    color: aliceblue;
+
+  }
+  button{
+      height:200px;
+      width:200px;
+      background-color: darkgreen;
+     border-color:cornflowerblue;
+     border-width: 5px;
+      color: aliceblue;
+      
+      
+       }
+       p{
+           text-align: left;
+         font-size:larger;
+         padding-left: 10px;
+       }
+       
